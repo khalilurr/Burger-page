@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Festive&family=Lobster&family=Open+Sans:ital,wght@0,600;1,300&family=Quintessential&family=Roboto:ital,wght@0,300;0,700;1,400;1,500&family=Syne+Tactile&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+}
+header{
+    width: 100%;
+    float: left;
+    background: url(../Image/bacground.png) no-repeat center ;
+    background-size:cover;
+
+}  
+.container{
+    width: 95%;
+    height: 80%;
+    float: left;
+}
+.main-header{
+    width: 100%;
+    float: left
+}
+.logo{
+width: 50%;
+float: left;
+margin-top: 5px;
+padding: 10px;
+
+}
+.logo img{
+    margin: 13%;
+    padding: 1px;
+    width: 55%;
+}
+.menu-part{
+    width: 50%;
+    float: left;
+    margin-top:3.5% ;
+
+}
+.delevary{
+   width: 100%;
+   float: left;
+   text-align: end;
+   margin-right:4% ;
+} 
+.delevary img{
+margin-right: 20px;
+
+
+}
+.delevary span{
+font-size: 13px;
+font-family: sans-serif;
+
+}
+.menu{
+    
+    text-align: end;
+    padding: 25px 45px ;
+    margin-left: 20px;
+
+}    
+.menu nav{
+    
+    
+
+}
+.menu ul{
+    margin-top:5px;
+    padding:px;
+}
+.menu li{
+    display: inline-block;
+    word-spacing: normal;
+}
+.menu a{
+   
+text-decoration: none;
+margin:10px;
+padding: 20 20px;
+letter-spacing: 2px;
+}
+.hero{
+    width: 100%;
+    float: left;
+    color: black;
+}
+.hero-heading-box{
+font-size: 15px;
+font-weight: 300;
+border: 3px dashed;
+display: inline-block;
+padding: 5px;
+margin: 15px;
+
+}
+.hero-heading{
+color: #3d2514;
+text-shadow: 2px 2px #fff ;
+font-size: 150px;
+padding-top: 20px;
+line-height: 150px ;
+margin: 10px;
+}
+.hero-subheading{
+color: #3d2514;
+text-shadow: 2px 2px #fff;
+font-size: 50px;
+margin: 13px;
+}
+.writting-part{
+width: 50%;
+float: left;
+padding: 100px;
+}
+.image-part{
+width: 50%;
+float: left;
+margin:auto ;
+}
+.image-part img{
+    width: 89%;
+    height: 150%;
+}
